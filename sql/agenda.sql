@@ -15,4 +15,3 @@ VALUES
 ("John Carter", "john@email.com", "22222222");
 
 
-
