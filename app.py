@@ -3,6 +3,8 @@ import web
 from mvc.controllers.index import Index
 from mvc.controllers.contactos import Contactos
 
+web.config.debug = False
+
 urls = (
     '/', 'Index',
     '/contactos', 'mvc.controllers.contactos.Contactos',

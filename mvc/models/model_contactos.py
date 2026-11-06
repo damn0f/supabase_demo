@@ -50,6 +50,6 @@ if __name__ == "__main__":
     model_contactos = ModelContactos()
     print(model_contactos.obtenerContactos())
     print(model_contactos.buscarContacto(30))
-    print(model_contactos.insertarContacto("Juan", "juan@gmail.com", "3333333"))
+    # print(model_contactos.insertarContacto("hola", "hola@gmail.com", "2222"))
     # print(model_contactos.borrarContacto(8))
-    print(model_contactos.actualizarContacto(1, "Dejah modificada", "dejah11@gmail.com", "444444"))
+    # print(model_contactos.actualizarContacto(1, "Dejah modificada", "dejah11@gmail.com", "444444"))
