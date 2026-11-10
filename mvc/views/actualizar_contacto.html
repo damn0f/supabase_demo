@@ -1,7 +1,9 @@
 $def with(contacto)
 
 $if contacto != []:
-    <form name="contacto" method="GET">
+    <h1>Actualizar Contacto</h1>
+
+    <form name="contacto" action="/actualizar_contacto/$contacto[0]['id_contacto']" method="POST">
         <label for="nombre">Nombre</label>
         <input type="text" name="nombre" id="nombre" value="$contacto[0]['nombre']"><br>
 
@@ -11,9 +13,9 @@ $if contacto != []:
         <label for="telefono">Teléfono</label>
         <input type="tel" name="telefono" id="telefono" value="$contacto[0]['telefono']"><br>
 
-        <input type="button" onclick="location.href='/contactos';" value="Regresar">
+        <input type="submit" value="Guardar cambios">
+        <input type="button" onclick="location.href='/contactos';" value="Cancelar">
     </form>
-
 $else:
     <h2>Contacto no encontrado</h2>
-    <a href="/contactos">Regresar</a>
+    <input type="button" onclick="location.href='/contactos';" value="Regresar">

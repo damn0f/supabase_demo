@@ -7,7 +7,7 @@ from mvc.controllers.ver_contacto import VerContacto
 from mvc.controllers.actualizar_contacto import ActualizarContacto
 from mvc.controllers.borrar_contacto import BorrarContacto
 
-web.config.debug = False
+web.config.debug = True
 
 urls = (
     '/', 'Index',
