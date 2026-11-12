@@ -1,0 +1,17 @@
+2026-11-12 13:23:05 [INFO] httpx: HTTP Request: GET https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 200 OK"
+2026-11-12 13:23:21 [INFO] httpx: HTTP Request: GET https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?select=%2A&id_contacto=eq.8 "HTTP/2 200 OK"
+2026-11-12 13:23:23 [INFO] httpx: HTTP Request: DELETE https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?id_contacto=eq.8 "HTTP/2 200 OK"
+2026-11-12 13:23:26 [INFO] httpx: HTTP Request: GET https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 200 OK"
+2026-11-12 13:27:14 [INFO] httpx: HTTP Request: GET https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?select=%2A&id_contacto=eq.13 "HTTP/2 200 OK"
+2026-11-12 13:27:21 [INFO] httpx: HTTP Request: PATCH https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?id_contacto=eq.13 "HTTP/2 200 OK"
+2026-11-12 13:27:25 [INFO] httpx: HTTP Request: GET https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 200 OK"
+2026-11-12 13:27:58 [INFO] httpx: HTTP Request: GET https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 401 Unauthorized"
+2026-11-12 13:27:58 [ERROR] mvc.models.model_contactos: ERROR 101: {'message': 'JSON could not be generated', 'code': 401, 'hint': 'Refer to full message for details', 'details': 'b\'{"message":"Invalid API key","hint":"Double check the provided API key for typos. This API key might also be owned by another Supabase project."}\''}
+2026-11-12 13:27:58 [INFO] httpx: HTTP Request: GET https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 401 Unauthorized"
+2026-11-12 13:27:58 [ERROR] mvc.models.model_contactos: ERROR 101: {'message': 'JSON could not be generated', 'code': 401, 'hint': 'Refer to full message for details', 'details': 'b\'{"message":"Invalid API key","hint":"Double check the provided API key for typos. This API key might also be owned by another Supabase project."}\''}
+2026-11-12 13:28:29 [INFO] httpx: HTTP Request: GET https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 200 OK"
+2026-11-12 13:28:43 [INFO] httpx: HTTP Request: GET https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?select=%2A&id_contacto=eq.19 "HTTP/2 200 OK"
+2026-11-12 13:48:30 [INFO] httpx: HTTP Request: GET https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 200 OK"
+2026-11-12 13:48:36 [INFO] httpx: HTTP Request: GET https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?select=%2A&id_contacto=eq.10 "HTTP/2 200 OK"
+2026-11-12 13:48:39 [INFO] httpx: HTTP Request: DELETE https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?id_contacto=eq.10 "HTTP/2 200 OK"
+2026-11-12 13:48:41 [INFO] httpx: HTTP Request: GET https://dqhovbhgncpvruxuegms.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 200 OK"
